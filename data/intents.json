@@ -1,0 +1,17 @@
+{
+  "intents": [
+    {
+      "name": "greeting",
+      "patterns": ["bonjour", "salut", "hello", "coucou"],
+      "responses": [
+        "Bonjour ! Comment puis-je vous aider ?",
+        "Salut ! Ravi de vous rencontrer."
+      ]
+    },
+    {
+      "name": "pricing",
+      "patterns": ["prix", "tarif", "cout", "combien"],
+      "responses": ["Nos services commencent a partir de 500 DT."]
+    }
+  ]
+}
